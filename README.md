@@ -1,5 +1,19 @@
 # **React Guided Learning Activity: Theme Switcher & useReducer**
 
+## How to Run
+
+The app lives in the `react-state-management/` folder:
+
+```bash
+cd react-state-management
+npm install
+npm run dev
+```
+
+Then open `http://localhost:5173/`.
+
+---
+
 **Title:** Implementing a Theme Switcher with useContext & State Management with useReducer
 
 **Objective:** Learn how to use the React Context API (`useContext`) for **global state management** (theme switching) and `useReducer` for **managing complex state** (task manager).
