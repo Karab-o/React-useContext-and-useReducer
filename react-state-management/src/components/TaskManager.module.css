@@ -1,0 +1,56 @@
+.container {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+  --button-bg: #1E90FF;
+  --button-text: #ffffff;
+}
+
+.dark {
+  background-color: #242629;
+  color: #ffffff;
+  --button-bg: #85D1B0;
+  --button-text: #242629;
+}
+
+.input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid var(--button-bg);
+}
+
+.button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
